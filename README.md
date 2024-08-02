@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A learning platform by Innov8ors
+
+Welcome this is an Open-Source project to build a learning platform  aimed at providing free certificates and courses for online learners. This project is designed to help you learn new skills, advance your career, and connect with a community of learners and educators. This is the MVP for the Academy built by team Innov8ors for a hackathon.
+
+## Table of Contents
+1. [Getting Started](#getting-started)
+   - [Clone the repository](#clone-the-repository)
+   - [Install dependencies](#install-dependencies)
+   - [Start the development server](#start-the-development-server)
+2. [Contribute](#contribute)
+   - [Fork the repository](#fork-the-repository)
+   - [Clone your forked repository](#clone-your-forked-repository)
+   - [Create a new branch](#create-a-new-branch)
+   - [Make your changes](#make-your-changes)
+   - [Commit your changes](#commit-your-changes)
+   - [Push your changes](#push-your-changes)
+   - [Submit a Pull Request](#submit-a-pull-request)
+
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Follow these simple steps:
+
+1. **Clone the repository**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/FevenSeyfu/Learning-Platform.git
+
+2. **Install dependencies** 
+
+Install all necessary dependencies using npm:
+
+```bash
+npm install
+```
+
+4. **Start the development server** 
+
+Start the development server to run the application locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribute
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To contribute to this project, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Fork the repository** 
 
-## Learn More
+Start by forking the main repository to your GitHub account.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Clone your forked repository** 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the development server to run the application locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+   git clone https://github.com/FevenSeyfu/Learning-Platform.git
+```
 
-## Deploy on Vercel
+3. **Create a new branch** 
+Before making your changes, switch to a new branch. Use a name that describes the feature you're adding or the bug you're fixing:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For a new feature:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+git checkout -b feature/feature-name
+```
+
+For a bug fix:
+
+```bash
+git checkout -b fix/fix-description
+```
+4. **Make your changes** 
+
+Implement your feature or fix, making sure to follow the project's coding standards.
+
+5. **Commit your changes** 
+
+Once you're happy with your changes, commit them to your branch:
+
+```bash
+git commit -m "Add a meaningful commit message"
+```
+6. **Push your changes** 
+
+Push your changes to your fork on GitHub:
+
+```bash
+git push origin < your-branch-name >
+```
+7. **Submit a Pull Request** 
+
+Go to the original repository you forked from, and click on the "Pull Request" button. Make sure to select your branch and provide a clear description of the changes you've made.
+
+...more detail to be added
