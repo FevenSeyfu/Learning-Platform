@@ -1,11 +1,13 @@
 import React from 'react'
+import Header from '../Components/LandingPage/Header/Header'
+import Footer from '../Components/LandingPage/Footer/Footer'
 
 const LandingPageLayout = ({children}) => {
   return (
     <div className='flex flex-col w-screen h-full'>
-      <header>Header</header>
+      <Header />
       <main>{children}</main>
-      <footer>footer</footer>
+      <Footer />
     </div>
   )
 }
